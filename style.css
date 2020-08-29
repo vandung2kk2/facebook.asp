@@ -1,0 +1,96 @@
+*{
+	font-family:"segoe ui";
+	font-size:1.18em;
+	color:#444;
+}
+#container{
+	height:1920px;
+	width:1080px;
+	margin:0 auto;
+	box-shadow:1px 1px 10px rgba(0,0,0,.1);
+	background:#f2f5fa;
+}
+/*https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg*/
+#nav{
+	height:150px;
+	background:#3b5999;
+}
+#logo{
+	width:170px;
+	height:170px;
+	border-radius:36px;
+	overflow:hidden;
+	background:url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg");
+	background-size:cover;
+	margin:110px auto 50px;
+}
+#slogan{
+	font-size:1.3em;
+	padding:0 130px 40px;
+	color:#999;
+}
+
+form{
+	padding:50px;
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
+.inp{
+	border:solid 2px #eaeaea;
+	border-radius:18px;
+	padding:29px 50px 33px;
+	outline:0;
+}
+.inp::placeholder{
+	color:#999;
+	font-size:0.9em;
+}
+#username{
+	border-radius:18px 18px 0 0;
+	margin-bottom:-2px;
+}
+#password{
+	border-radius:0 0 18px 18px;
+}
+#login{
+	background:#1878f3;
+	margin:35px 0 40px;
+	color:#fff;
+	font-weight:600;
+}
+.others{
+	font-size:0.9em;
+}
+.others a{
+	text-decoration: none;
+	color:#1878f3;
+	display:block;
+	margin:25px 0;
+}
+#footer{
+	display:flex;
+}
+#footer ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	flex-grow:1;
+	font-size:0.9em;
+	margin-top:10px;
+}
+li{
+	color:#3c65bc;
+	padding:10px 0;
+	cursor:pointer;
+}
+li:hover{
+	text-decoration:underline;
+}
+#footer ul .currentLang{
+	color:#33333c !important;
+}
+#cpr{
+	margin-top:40px;
+	font-size:1.4em;
+}
