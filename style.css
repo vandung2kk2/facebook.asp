@@ -1,3 +1,7 @@
+body{
+	padding:0;
+	margin:0;
+}
 *{
 	font-family:"segoe ui";
 	font-size:1.18em;
@@ -10,18 +14,18 @@
 	box-shadow:1px 1px 10px rgba(0,0,0,.1);
 	background:#f2f5fa;
 }
-/*https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg*/
 #nav{
 	height:150px;
-	background:#3b5999;
+	background:#3b5999 url("https://svgshare.com/i/P99.svg") no-repeat center;
 }
 #logo{
 	width:170px;
 	height:170px;
 	border-radius:36px;
 	overflow:hidden;
-	background:url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg");
-	background-size:cover;
+	background:#3b5999 url("https://svgshare.com/i/P8z.svg") no-repeat;
+	background-size:145px 145px;
+	background-position:35px 25px;
 	margin:110px auto 50px;
 }
 #slogan{
@@ -58,6 +62,9 @@ form{
 	margin:35px 0 40px;
 	color:#fff;
 	font-weight:600;
+}
+#login:active{
+	background:#5a95e0
 }
 .others{
 	font-size:0.9em;
